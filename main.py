@@ -1,6 +1,7 @@
 import requests
 import bs4
 
+
 def get_threads(boards):
     """Get all active (non-archived) threads on each board"""
 
@@ -19,7 +20,7 @@ def get_threads(boards):
                 page += 2
             else:
                 print(f"Page {page} out of 10")
-                page +=1
+                page += 1
 
         board_dict[board] = page_list
         page_list = []
@@ -32,8 +33,8 @@ def get_threads(boards):
         while page < 10:
             soup = bs4.BeautifulSoup(board_dict[board][page].text, "html.parser")
             for tag in soup.findAll("span", class_="postNum desktop"):
-                 thread_list.append(str(tag).split("#")[0].split("/")[1])
-                 thread_list = list(dict.fromkeys(thread_list))
+                thread_list.append(str(tag).split("#")[0].split("/")[1])
+                thread_list = list(dict.fromkeys(thread_list))
             page += 1
 
         board_dict[board] = thread_list
@@ -42,12 +43,14 @@ def get_threads(boards):
 
     return board_dict
 
+
 def count(thread_dict):
     """Count the amount of slurs per board"""
 
     amount = 1
     slur_list = {"nigga": 0, "nigger": 0, "fag": 0, "troon": 0, "tranny": 0, "(((them)))": 0, "kike": 0, "argie": 0,
-                 "bri'ish": 0, "dyke": 0}
+                 "bri'ish": 0, "dyke": 0, "chink": 0, "ching chong": 0, "pajeet": 0, "goy": 0, "gypsy": 0, "tard": 0,
+                 "schizo": 0}
 
     for board in thread_dict:
         # Iterate through each board
@@ -79,7 +82,24 @@ def count(thread_dict):
         slur_list = dict.fromkeys(slur_list, 0)
         amount = 1
 
-    print(thread_dict)
+    return thread_dict
+
+
+def log_to_file(board_slur_list):
+    """Log each board's slur count on a file"""
+
+    with open("slur_log.txt", "a") as log:
+
+        for board in board_slur_list:
+            log.write(f"/{board}/\n")
+            for slur in board_slur_list[board]:
+                log.write(f'"{slur}": {board_slur_list[board][slur]}, ')
+            log.write("\n")
+
+        log.write("\n")
+
+    log.close()
+
 
 if __name__ == '__main__':
     boards = ["3", "a", "adv", "an", "b", "bant", "biz", "c", "cgl", "ck", "cm", "co", "d", "diy",
@@ -87,6 +107,7 @@ if __name__ == '__main__':
               "k", "lgbt", "lit", "m", "mlp", "mu", "n", "news", "o", "out", "p", "po", "pol", "r",
               "r9k", "s4s", "s", "sci", "soc", "sp", "t", "tg", "toy", "trv", "tv", "u", "v", "vg",
               "vp", "vr", "vt", "w", "wg", "wsg", "wsr", "x", "xs", "y"]
-    
+
     thread_dict = get_threads(boards)
-    count(thread_dict)
+    board_slur_list = count(thread_dict)
+    log_to_file(board_slur_list)
