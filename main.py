@@ -1,5 +1,6 @@
 import requests
 import bs4
+import time
 
 
 def get_threads(boards):
@@ -85,10 +86,13 @@ def count(thread_dict):
     return thread_dict
 
 
-def log_to_file(board_slur_list):
+def log_to_file(board_slur_list, current_time):
     """Log each board's slur count on a file"""
 
+    time = f"{current_time.tm_hour}:{current_time.tm_min}\t{current_time.tm_mday}/{current_time.tm_mon}/{current_time.tm_year}"
+
     with open("slur_log.txt", "a") as log:
+        log.write(f"{time}\n\n")
 
         for board in board_slur_list:
             log.write(f"/{board}/\n")
@@ -96,7 +100,7 @@ def log_to_file(board_slur_list):
                 log.write(f'"{slur}": {board_slur_list[board][slur]}, ')
             log.write("\n")
 
-        log.write("\n")
+        log.write("\n\n\n")
 
     log.close()
 
@@ -110,4 +114,7 @@ if __name__ == '__main__':
 
     thread_dict = get_threads(boards)
     board_slur_list = count(thread_dict)
-    log_to_file(board_slur_list)
+
+    current_time = time.localtime(time.time())
+
+    log_to_file(board_slur_list, current_time)
