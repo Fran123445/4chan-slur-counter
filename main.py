@@ -2,7 +2,7 @@ import requests
 import bs4
 
 def get_threads(boards):
-    """All active threads on each board"""
+    """Get all active (non-archived) threads on each board"""
 
     amount = 1
     page = 0
@@ -42,18 +42,31 @@ def get_threads(boards):
 
     return board_dict
 
-def get_replies(thread_dict):
+def count(thread_dict):
+    """Count the amount of slurs per board"""
+
     amount = 1
-    slur_list = {"nigga": 0, "nigger": 0, "fag": 0, "troon": 0, "tranny": 0}
+    slur_list = {"nigga": 0, "nigger": 0, "fag": 0, "troon": 0, "tranny": 0, "(((them)))": 0, "kike": 0, "argie": 0,
+                 "bri'ish": 0, "dyke": 0}
 
     for board in thread_dict:
+        # Iterate through each board
+
         for thread in thread_dict[board]:
+            # Iterate through each thread on the current board
+
             request = requests.get(f"https://boards.4chan.org/{board}/thread/{thread}")
             soup = bs4.BeautifulSoup(request.text, "html.parser")
             for tag in soup.findAll("blockquote", class_="postMessage"):
+                # Iterate through each reply on the current thread
+
                 tag_list = str(tag).split()
                 for word in tag_list:
+                    # Iterate through each word on the current reply
+
                     if any(slur in word.lower() for slur in slur_list):
+                        # Check if any slur is contained in any of those words
+
                         for slur in slur_list:
                             if slur in word.lower():
                                 slur_list[slur] += 1
@@ -74,8 +87,6 @@ if __name__ == '__main__':
               "k", "lgbt", "lit", "m", "mlp", "mu", "n", "news", "o", "out", "p", "po", "pol", "r",
               "r9k", "s4s", "s", "sci", "soc", "sp", "t", "tg", "toy", "trv", "tv", "u", "v", "vg",
               "vp", "vr", "vt", "w", "wg", "wsg", "wsr", "x", "xs", "y"]
-
-    board = ["g", "r9k"]
-
-    thread_dict = get_threads(board)
-    get_replies(thread_dict)
+    
+    thread_dict = get_threads(boards)
+    count(thread_dict)
