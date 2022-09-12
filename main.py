@@ -27,6 +27,7 @@ def get_threads(boards):
         print(f"{amount} out of {len(boards)} boards requested")
         amount += 1
 
+    # Get each thread number
     for board in board_dict:
         while page < 10:
             soup = bs4.BeautifulSoup(board_dict[board][page].text, "html.parser")
@@ -41,6 +42,32 @@ def get_threads(boards):
 
     return board_dict
 
+def get_replies(thread_dict):
+    amount = 1
+    slur_list = {"nigga": 0, "nigger": 0, "fag": 0, "troon": 0, "tranny": 0}
+
+    for board in thread_dict:
+        for thread in thread_dict[board]:
+            request = requests.get(f"https://boards.4chan.org/{board}/thread/{thread}")
+            soup = bs4.BeautifulSoup(request.text, "html.parser")
+            for tag in soup.findAll("blockquote", class_="postMessage"):
+                tag_list = str(tag).split()
+                for word in tag_list:
+                    if any(slur in word.lower() for slur in slur_list):
+                        for slur in slur_list:
+                            if slur in word.lower():
+                                slur_list[slur] += 1
+                                break
+
+            print(f"{amount} out of {len(thread_dict[board])}")
+            amount += 1
+
+        thread_dict[board] = slur_list
+        slur_list = dict.fromkeys(slur_list, 0)
+        amount = 1
+
+    print(thread_dict)
+
 if __name__ == '__main__':
     boards = ["3", "a", "adv", "an", "b", "bant", "biz", "c", "cgl", "ck", "cm", "co", "d", "diy",
               "e", "f", "fa", "fit", "g", "gd", "gif", "h", "hc", "hm", "hr", "i", "ic", "int", "jp",
@@ -48,4 +75,7 @@ if __name__ == '__main__':
               "r9k", "s4s", "s", "sci", "soc", "sp", "t", "tg", "toy", "trv", "tv", "u", "v", "vg",
               "vp", "vr", "vt", "w", "wg", "wsg", "wsr", "x", "xs", "y"]
 
-    thread_list = get_threads(boards)
+    board = ["g", "r9k"]
+
+    thread_dict = get_threads(board)
+    get_replies(thread_dict)
