@@ -5,7 +5,7 @@ import multiprocessing
 
 
 def get_threads(board_dict, board):
-    """Get all active (non-archived) threads on each board"""
+    """Get all active (non-archived) threads on a given board"""
 
     page = 0
     thread_list = []
@@ -15,10 +15,8 @@ def get_threads(board_dict, board):
     while page < 11:
         page_list.append(requests.get(f"https://boards.4chan.org/{board}/{page}"))
         if page == 0:
-            #print(f"Page 1 out of 10. Current board: /{board}/")
             page += 2
         else:
-            #print(f"Page {page} out of 10. Current board: /{board}/")
             page += 1
 
     board_dict[board] = page_list
@@ -35,13 +33,13 @@ def get_threads(board_dict, board):
     print(f"/{board}/ - Requesting done")
     board_dict[board] = thread_list
 
+
 def count(board_dict, board):
     """Count the amount of slurs per board"""
 
     slur_list = {"nigga": 0, "nigger": 0, "fag": 0, "troon": 0, "tranny": 0, "(((them)))": 0, "kike": 0, "argie": 0,
                  "bri'ish": 0, "dyke": 0, "chink": 0, "ching chong": 0, "pajeet": 0, "goy": 0, "gypsy": 0, "tard": 0,
                  "schizo": 0}
-
 
     for thread in board_dict[board]:
         # Iterate through each thread on the current board
@@ -88,23 +86,22 @@ def log_to_file(board_slur_list, current_time):
 
     log.close()
 
+
 def multiproc(board_dict, func):
 
-    get_pages = multiprocessing.Process(target=func)
     processes = []
     manager = multiprocessing.Manager()
-    cuack = manager.dict(board_dict)
+    aux = manager.dict(board_dict)
 
     for board in board_dict:
-        get_pages = multiprocessing.Process(target=func, args=(cuack, board))
+        get_pages = multiprocessing.Process(target=func, args=(aux, board))
         processes.append(get_pages)
         get_pages.start()
 
     for proc in processes:
         proc.join()
 
-    return cuack
-
+    return aux
 
 
 if __name__ == '__main__':
