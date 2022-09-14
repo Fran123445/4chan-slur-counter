@@ -1,0 +1,206 @@
+0:52	14/9/2022
+
+/3/
+"nigga": 8	"nigger": 54	"fag": 124	"troon": 6	"tranny": 18	"(((them)))": 0	"kike": 3	"argie": 0	"bri'ish": 0	"dyke": 0	"chink": 3	"pajeet": 21	"goy": 3	"gypsy": 0	"tard": 169	"schizo": 34	"total amount of posts": 5018	"total amount of slurs": 443	"slurs per post": 0.088282	
+
+/a/
+"nigga": 33	"nigger": 57	"fag": 463	"troon": 6	"tranny": 33	"(((them)))": 0	"kike": 3	"argie": 0	"bri'ish": 0	"dyke": 16	"chink": 7	"pajeet": 0	"goy": 1	"gypsy": 0	"tard": 354	"schizo": 73	"total amount of posts": 20344	"total amount of slurs": 1046	"slurs per post": 0.051416	
+
+/adv/
+"nigga": 8	"nigger": 54	"fag": 83	"troon": 4	"tranny": 19	"(((them)))": 0	"kike": 2	"argie": 0	"bri'ish": 0	"dyke": 0	"chink": 0	"pajeet": 7	"goy": 4	"gypsy": 0	"tard": 141	"schizo": 20	"total amount of posts": 4005	"total amount of slurs": 342	"slurs per post": 0.085393	
+
+/an/
+"nigga": 20	"nigger": 49	"fag": 165	"troon": 2	"tranny": 6	"(((them)))": 0	"kike": 4	"argie": 0	"bri'ish": 0	"dyke": 1	"chink": 10	"pajeet": 2	"goy": 2	"gypsy": 2	"tard": 204	"schizo": 17	"total amount of posts": 8908	"total amount of slurs": 484	"slurs per post": 0.054333	
+
+/b/
+"nigga": 9	"nigger": 236	"fag": 266	"troon": 33	"tranny": 48	"(((them)))": 0	"kike": 4	"argie": 0	"bri'ish": 0	"dyke": 0	"chink": 7	"pajeet": 2	"goy": 0	"gypsy": 0	"tard": 121	"schizo": 7	"total amount of posts": 7431	"total amount of slurs": 733	"slurs per post": 0.098641	
+
+/bant/
+"nigga": 5	"nigger": 51	"fag": 86	"troon": 8	"tranny": 18	"(((them)))": 2	"kike": 16	"argie": 0	"bri'ish": 0	"dyke": 0	"chink": 5	"pajeet": 0	"goy": 9	"gypsy": 0	"tard": 38	"schizo": 12	"total amount of posts": 3842	"total amount of slurs": 250	"slurs per post": 0.06507	
+
+/biz/
+"nigga": 14	"nigger": 109	"fag": 213	"troon": 3	"tranny": 18	"(((them)))": 0	"kike": 47	"argie": 0	"bri'ish": 0	"dyke": 0	"chink": 8	"pajeet": 14	"goy": 44	"gypsy": 0	"tard": 212	"schizo": 48	"total amount of posts": 6189	"total amount of slurs": 730	"slurs per post": 0.117951	
+
+/c/
+"nigga": 0	"nigger": 2	"fag": 25	"troon": 0	"tranny": 1	"(((them)))": 0	"kike": 0	"argie": 0	"bri'ish": 0	"dyke": 0	"chink": 1	"pajeet": 0	"goy": 0	"gypsy": 0	"tard": 11	"schizo": 0	"total amount of posts": 12207	"total amount of slurs": 40	"slurs per post": 0.003277	
+
+/cgl/
+"nigga": 11	"nigger": 17	"fag": 286	"troon": 51	"tranny": 59	"(((them)))": 0	"kike": 4	"argie": 0	"bri'ish": 0	"dyke": 2	"chink": 1	"pajeet": 0	"goy": 4	"gypsy": 1	"tard": 290	"schizo": 16	"total amount of posts": 14197	"total amount of slurs": 742	"slurs per post": 0.052265	
+
+/ck/
+"nigga": 18	"nigger": 33	"fag": 158	"troon": 6	"tranny": 5	"(((them)))": 0	"kike": 3	"argie": 0	"bri'ish": 0	"dyke": 7	"chink": 6	"pajeet": 1	"goy": 35	"gypsy": 0	"tard": 171	"schizo": 9	"total amount of posts": 5423	"total amount of slurs": 452	"slurs per post": 0.083349	
+
+/cm/
+"nigga": 7	"nigger": 13	"fag": 144	"troon": 18	"tranny": 34	"(((them)))": 0	"kike": 0	"argie": 0	"bri'ish": 0	"dyke": 5	"chink": 1	"pajeet": 0	"goy": 0	"gypsy": 0	"tard": 72	"schizo": 9	"total amount of posts": 15088	"total amount of slurs": 303	"slurs per post": 0.020082	
+
+/co/
+"nigga": 19	"nigger": 22	"fag": 284	"troon": 7	"tranny": 28	"(((them)))": 0	"kike": 1	"argie": 0	"bri'ish": 0	"dyke": 20	"chink": 0	"pajeet": 0	"goy": 1	"gypsy": 3	"tard": 196	"schizo": 84	"total amount of posts": 11730	"total amount of slurs": 665	"slurs per post": 0.056692	
+
+/d/
+"nigga": 21	"nigger": 14	"fag": 163	"troon": 20	"tranny": 48	"(((them)))": 0	"kike": 3	"argie": 0	"bri'ish": 0	"dyke": 2	"chink": 4	"pajeet": 0	"goy": 1	"gypsy": 0	"tard": 137	"schizo": 14	"total amount of posts": 22975	"total amount of slurs": 427	"slurs per post": 0.018585	
+
+/diy/
+"nigga": 10	"nigger": 34	"fag": 115	"troon": 4	"tranny": 9	"(((them)))": 1	"kike": 8	"argie": 0	"bri'ish": 0	"dyke": 3	"chink": 33	"pajeet": 4	"goy": 9	"gypsy": 0	"tard": 278	"schizo": 9	"total amount of posts": 7580	"total amount of slurs": 517	"slurs per post": 0.068206	
+
+/e/
+"nigga": 3	"nigger": 9	"fag": 62	"troon": 0	"tranny": 2	"(((them)))": 0	"kike": 0	"argie": 0	"bri'ish": 0	"dyke": 8	"chink": 4	"pajeet": 0	"goy": 0	"gypsy": 0	"tard": 59	"schizo": 6	"total amount of posts": 20056	"total amount of slurs": 153	"slurs per post": 0.007629	
+
+/f/
+"nigga": 0	"nigger": 0	"fag": 0	"troon": 0	"tranny": 0	"(((them)))": 0	"kike": 0	"argie": 0	"bri'ish": 0	"dyke": 0	"chink": 0	"pajeet": 0	"goy": 0	"gypsy": 0	"tard": 0	"schizo": 0	"total amount of posts": 0	"total amount of slurs": 0	"slurs per post": 0	
+
+/fa/
+"nigga": 23	"nigger": 46	"fag": 163	"troon": 9	"tranny": 29	"(((them)))": 0	"kike": 7	"argie": 3	"bri'ish": 0	"dyke": 0	"chink": 5	"pajeet": 2	"goy": 7	"gypsy": 0	"tard": 134	"schizo": 17	"total amount of posts": 6692	"total amount of slurs": 445	"slurs per post": 0.066497	
+
+/fit/
+"nigga": 44	"nigger": 58	"fag": 188	"troon": 14	"tranny": 47	"(((them)))": 0	"kike": 12	"argie": 0	"bri'ish": 0	"dyke": 1	"chink": 19	"pajeet": 2	"goy": 21	"gypsy": 1	"tard": 169	"schizo": 12	"total amount of posts": 6114	"total amount of slurs": 588	"slurs per post": 0.096173	
+
+/g/
+"nigga": 16	"nigger": 81	"fag": 219	"troon": 15	"tranny": 34	"(((them)))": 1	"kike": 1	"argie": 0	"bri'ish": 0	"dyke": 0	"chink": 56	"pajeet": 37	"goy": 8	"gypsy": 0	"tard": 348	"schizo": 33	"total amount of posts": 8471	"total amount of slurs": 849	"slurs per post": 0.100224	
+
+/gd/
+"nigga": 6	"nigger": 8	"fag": 57	"troon": 0	"tranny": 3	"(((them)))": 0	"kike": 1	"argie": 0	"bri'ish": 0	"dyke": 0	"chink": 0	"pajeet": 8	"goy": 2	"gypsy": 0	"tard": 63	"schizo": 11	"total amount of posts": 3218	"total amount of slurs": 159	"slurs per post": 0.04941	
+
+/gif/
+"nigga": 36	"nigger": 351	"fag": 359	"troon": 20	"tranny": 48	"(((them)))": 0	"kike": 28	"argie": 0	"bri'ish": 0	"dyke": 5	"chink": 12	"pajeet": 7	"goy": 11	"gypsy": 3	"tard": 260	"schizo": 12	"total amount of posts": 18098	"total amount of slurs": 1152	"slurs per post": 0.063653	
+
+/h/
+"nigga": 27	"nigger": 89	"fag": 188	"troon": 6	"tranny": 15	"(((them)))": 0	"kike": 3	"argie": 0	"bri'ish": 0	"dyke": 2	"chink": 3	"pajeet": 3	"goy": 0	"gypsy": 0	"tard": 228	"schizo": 37	"total amount of posts": 22393	"total amount of slurs": 601	"slurs per post": 0.026839	
+
+/hc/
+"nigga": 11	"nigger": 34	"fag": 55	"troon": 0	"tranny": 8	"(((them)))": 0	"kike": 2	"argie": 4	"bri'ish": 0	"dyke": 1	"chink": 1	"pajeet": 3	"goy": 1	"gypsy": 0	"tard": 42	"schizo": 3	"total amount of posts": 16531	"total amount of slurs": 165	"slurs per post": 0.009981	
+
+/hm/
+"nigga": 4	"nigger": 19	"fag": 162	"troon": 2	"tranny": 17	"(((them)))": 0	"kike": 2	"argie": 0	"bri'ish": 0	"dyke": 1	"chink": 12	"pajeet": 1	"goy": 2	"gypsy": 0	"tard": 61	"schizo": 8	"total amount of posts": 12443	"total amount of slurs": 291	"slurs per post": 0.023387	
+
+/hr/
+"nigga": 13	"nigger": 50	"fag": 181	"troon": 9	"tranny": 24	"(((them)))": 0	"kike": 9	"argie": 2	"bri'ish": 1	"dyke": 2	"chink": 3	"pajeet": 7	"goy": 7	"gypsy": 0	"tard": 125	"schizo": 23	"total amount of posts": 22373	"total amount of slurs": 456	"slurs per post": 0.020382	
+
+/i/
+"nigga": 14	"nigger": 12	"fag": 207	"troon": 4	"tranny": 15	"(((them)))": 0	"kike": 2	"argie": 0	"bri'ish": 1	"dyke": 2	"chink": 0	"pajeet": 0	"goy": 1	"gypsy": 0	"tard": 105	"schizo": 26	"total amount of posts": 12106	"total amount of slurs": 389	"slurs per post": 0.032133	
+
+/ic/
+"nigga": 27	"nigger": 82	"fag": 246	"troon": 3	"tranny": 20	"(((them)))": 0	"kike": 4	"argie": 0	"bri'ish": 0	"dyke": 0	"chink": 11	"pajeet": 6	"goy": 3	"gypsy": 0	"tard": 294	"schizo": 75	"total amount of posts": 10638	"total amount of slurs": 771	"slurs per post": 0.072476	
+
+/int/
+"nigga": 21	"nigger": 21	"fag": 38	"troon": 2	"tranny": 13	"(((them)))": 0	"kike": 0	"argie": 9	"bri'ish": 0	"dyke": 0	"chink": 13	"pajeet": 3	"goy": 3	"gypsy": 1	"tard": 62	"schizo": 5	"total amount of posts": 5803	"total amount of slurs": 191	"slurs per post": 0.032914	
+
+/jp/
+"nigga": 23	"nigger": 13	"fag": 193	"troon": 6	"tranny": 18	"(((them)))": 0	"kike": 2	"argie": 0	"bri'ish": 1	"dyke": 0	"chink": 9	"pajeet": 0	"goy": 1	"gypsy": 0	"tard": 130	"schizo": 54	"total amount of posts": 17999	"total amount of slurs": 450	"slurs per post": 0.025001	
+
+/k/
+"nigga": 31	"nigger": 167	"fag": 303	"troon": 5	"tranny": 39	"(((them)))": 0	"kike": 15	"argie": 1	"bri'ish": 1	"dyke": 2	"chink": 42	"pajeet": 3	"goy": 21	"gypsy": 3	"tard": 359	"schizo": 26	"total amount of posts": 11735	"total amount of slurs": 1018	"slurs per post": 0.086749	
+
+/lgbt/
+"nigga": 4	"nigger": 15	"fag": 94	"troon": 50	"tranny": 92	"(((them)))": 0	"kike": 4	"argie": 0	"bri'ish": 2	"dyke": 9	"chink": 1	"pajeet": 0	"goy": 1	"gypsy": 2	"tard": 72	"schizo": 9	"total amount of posts": 4814	"total amount of slurs": 355	"slurs per post": 0.073743	
+
+/lit/
+"nigga": 23	"nigger": 46	"fag": 143	"troon": 5	"tranny": 12	"(((them)))": 0	"kike": 1	"argie": 0	"bri'ish": 0	"dyke": 3	"chink": 0	"pajeet": 0	"goy": 4	"gypsy": 0	"tard": 230	"schizo": 49	"total amount of posts": 5774	"total amount of slurs": 516	"slurs per post": 0.089366	
+
+/m/
+"nigga": 17	"nigger": 8	"fag": 186	"troon": 3	"tranny": 5	"(((them)))": 0	"kike": 2	"argie": 0	"bri'ish": 0	"dyke": 2	"chink": 14	"pajeet": 0	"goy": 1	"gypsy": 0	"tard": 220	"schizo": 12	"total amount of posts": 18218	"total amount of slurs": 470	"slurs per post": 0.025799	
+
+/mlp/
+"nigga": 25	"nigger": 72	"fag": 552	"troon": 16	"tranny": 50	"(((them)))": 2	"kike": 0	"argie": 0	"bri'ish": 0	"dyke": 8	"chink": 5	"pajeet": 0	"goy": 6	"gypsy": 0	"tard": 225	"schizo": 35	"total amount of posts": 22177	"total amount of slurs": 996	"slurs per post": 0.044911	
+
+/mu/
+"nigga": 43	"nigger": 25	"fag": 117	"troon": 5	"tranny": 13	"(((them)))": 0	"kike": 0	"argie": 2	"bri'ish": 0	"dyke": 0	"chink": 5	"pajeet": 0	"goy": 3	"gypsy": 0	"tard": 91	"schizo": 19	"total amount of posts": 6135	"total amount of slurs": 323	"slurs per post": 0.052649	
+
+/n/
+"nigga": 16	"nigger": 50	"fag": 196	"troon": 1	"tranny": 7	"(((them)))": 0	"kike": 3	"argie": 0	"bri'ish": 0	"dyke": 0	"chink": 56	"pajeet": 4	"goy": 15	"gypsy": 1	"tard": 297	"schizo": 20	"total amount of posts": 10269	"total amount of slurs": 666	"slurs per post": 0.064855	
+
+/news/
+"nigga": 5	"nigger": 37	"fag": 267	"troon": 5	"tranny": 25	"(((them)))": 3	"kike": 4	"argie": 0	"bri'ish": 0	"dyke": 1	"chink": 1	"pajeet": 0	"goy": 8	"gypsy": 0	"tard": 380	"schizo": 91	"total amount of posts": 6689	"total amount of slurs": 827	"slurs per post": 0.123636	
+
+/o/
+"nigga": 16	"nigger": 98	"fag": 222	"troon": 2	"tranny": 36	"(((them)))": 0	"kike": 9	"argie": 0	"bri'ish": 0	"dyke": 0	"chink": 11	"pajeet": 2	"goy": 9	"gypsy": 0	"tard": 269	"schizo": 13	"total amount of posts": 7593	"total amount of slurs": 687	"slurs per post": 0.090478	
+
+/out/
+"nigga": 24	"nigger": 112	"fag": 381	"troon": 3	"tranny": 18	"(((them)))": 2	"kike": 9	"argie": 1	"bri'ish": 0	"dyke": 0	"chink": 68	"pajeet": 0	"goy": 24	"gypsy": 2	"tard": 305	"schizo": 39	"total amount of posts": 10563	"total amount of slurs": 988	"slurs per post": 0.093534	
+
+/p/
+"nigga": 11	"nigger": 23	"fag": 266	"troon": 5	"tranny": 3	"(((them)))": 0	"kike": 0	"argie": 0	"bri'ish": 0	"dyke": 0	"chink": 13	"pajeet": 2	"goy": 3	"gypsy": 2	"tard": 203	"schizo": 22	"total amount of posts": 9099	"total amount of slurs": 553	"slurs per post": 0.060776	
+
+/po/
+"nigga": 9	"nigger": 4	"fag": 48	"troon": 2	"tranny": 0	"(((them)))": 0	"kike": 0	"argie": 0	"bri'ish": 0	"dyke": 1	"chink": 3	"pajeet": 0	"goy": 0	"gypsy": 0	"tard": 45	"schizo": 2	"total amount of posts": 5264	"total amount of slurs": 114	"slurs per post": 0.021657	
+
+/pol/
+"nigga": 56	"nigger": 835	"fag": 586	"troon": 16	"tranny": 69	"(((them)))": 1	"kike": 211	"argie": 0	"bri'ish": 1	"dyke": 0	"chink": 29	"pajeet": 25	"goy": 190	"gypsy": 2	"tard": 442	"schizo": 60	"total amount of posts": 12488	"total amount of slurs": 2523	"slurs per post": 0.202034	
+
+/r/
+"nigga": 1	"nigger": 2	"fag": 3	"troon": 0	"tranny": 1	"(((them)))": 0	"kike": 0	"argie": 0	"bri'ish": 0	"dyke": 1	"chink": 0	"pajeet": 0	"goy": 0	"gypsy": 0	"tard": 1	"schizo": 0	"total amount of posts": 1200	"total amount of slurs": 9	"slurs per post": 0.0075	
+
+/r9k/
+"nigga": 12	"nigger": 69	"fag": 139	"troon": 6	"tranny": 28	"(((them)))": 0	"kike": 3	"argie": 0	"bri'ish": 1	"dyke": 0	"chink": 1	"pajeet": 3	"goy": 1	"gypsy": 0	"tard": 96	"schizo": 22	"total amount of posts": 3889	"total amount of slurs": 381	"slurs per post": 0.097969	
+
+/s4s/
+"nigga": 2	"nigger": 12	"fag": 25	"troon": 0	"tranny": 0	"(((them)))": 0	"kike": 0	"argie": 0	"bri'ish": 0	"dyke": 0	"chink": 1	"pajeet": 0	"goy": 2	"gypsy": 0	"tard": 27	"schizo": 1	"total amount of posts": 2499	"total amount of slurs": 70	"slurs per post": 0.028011	
+
+/s/
+"nigga": 9	"nigger": 16	"fag": 103	"troon": 6	"tranny": 16	"(((them)))": 0	"kike": 1	"argie": 0	"bri'ish": 0	"dyke": 3	"chink": 2	"pajeet": 6	"goy": 1	"gypsy": 0	"tard": 64	"schizo": 2	"total amount of posts": 16292	"total amount of slurs": 229	"slurs per post": 0.014056	
+
+/sci/
+"nigga": 11	"nigger": 29	"fag": 106	"troon": 3	"tranny": 19	"(((them)))": 0	"kike": 7	"argie": 0	"bri'ish": 0	"dyke": 0	"chink": 6	"pajeet": 2	"goy": 11	"gypsy": 0	"tard": 307	"schizo": 65	"total amount of posts": 6157	"total amount of slurs": 566	"slurs per post": 0.091928	
+
+/soc/
+"nigga": 21	"nigger": 45	"fag": 205	"troon": 20	"tranny": 57	"(((them)))": 0	"kike": 2	"argie": 0	"bri'ish": 0	"dyke": 3	"chink": 2	"pajeet": 3	"goy": 5	"gypsy": 1	"tard": 217	"schizo": 57	"total amount of posts": 13972	"total amount of slurs": 638	"slurs per post": 0.045663	
+
+/sp/
+"nigga": 66	"nigger": 16	"fag": 160	"troon": 1	"tranny": 10	"(((them)))": 0	"kike": 4	"argie": 8	"bri'ish": 0	"dyke": 19	"chink": 4	"pajeet": 2	"goy": 24	"gypsy": 1	"tard": 201	"schizo": 29	"total amount of posts": 12662	"total amount of slurs": 545	"slurs per post": 0.043042	
+
+/t/
+"nigga": 23	"nigger": 107	"fag": 294	"troon": 3	"tranny": 68	"(((them)))": 2	"kike": 10	"argie": 0	"bri'ish": 0	"dyke": 3	"chink": 11	"pajeet": 8	"goy": 8	"gypsy": 0	"tard": 262	"schizo": 12	"total amount of posts": 17174	"total amount of slurs": 811	"slurs per post": 0.047223	
+
+/tg/
+"nigga": 33	"nigger": 43	"fag": 409	"troon": 10	"tranny": 31	"(((them)))": 0	"kike": 5	"argie": 0	"bri'ish": 6	"dyke": 0	"chink": 9	"pajeet": 0	"goy": 14	"gypsy": 2	"tard": 470	"schizo": 30	"total amount of posts": 16963	"total amount of slurs": 1062	"slurs per post": 0.062607	
+
+/toy/
+"nigga": 22	"nigger": 12	"fag": 269	"troon": 8	"tranny": 16	"(((them)))": 0	"kike": 3	"argie": 0	"bri'ish": 0	"dyke": 2	"chink": 11	"pajeet": 0	"goy": 11	"gypsy": 2	"tard": 270	"schizo": 15	"total amount of posts": 17784	"total amount of slurs": 641	"slurs per post": 0.036044	
+
+/trv/
+"nigga": 14	"nigger": 57	"fag": 182	"troon": 5	"tranny": 19	"(((them)))": 0	"kike": 4	"argie": 1	"bri'ish": 1	"dyke": 0	"chink": 34	"pajeet": 11	"goy": 4	"gypsy": 0	"tard": 198	"schizo": 26	"total amount of posts": 6212	"total amount of slurs": 556	"slurs per post": 0.089504	
+
+/tv/
+"nigga": 22	"nigger": 91	"fag": 207	"troon": 8	"tranny": 21	"(((them)))": 0	"kike": 17	"argie": 0	"bri'ish": 0	"dyke": 1	"chink": 17	"pajeet": 3	"goy": 23	"gypsy": 0	"tard": 195	"schizo": 19	"total amount of posts": 8158	"total amount of slurs": 624	"slurs per post": 0.076489	
+
+/u/
+"nigga": 1	"nigger": 3	"fag": 211	"troon": 0	"tranny": 10	"(((them)))": 0	"kike": 0	"argie": 2	"bri'ish": 0	"dyke": 30	"chink": 13	"pajeet": 0	"goy": 4	"gypsy": 1	"tard": 206	"schizo": 13	"total amount of posts": 24668	"total amount of slurs": 494	"slurs per post": 0.020026	
+
+/v/
+"nigga": 39	"nigger": 97	"fag": 531	"troon": 61	"tranny": 82	"(((them)))": 0	"kike": 6	"argie": 0	"bri'ish": 0	"dyke": 3	"chink": 22	"pajeet": 4	"goy": 24	"gypsy": 0	"tard": 563	"schizo": 55	"total amount of posts": 17567	"total amount of slurs": 1487	"slurs per post": 0.084647	
+
+/vg/
+"nigga": 193	"nigger": 451	"fag": 1725	"troon": 159	"tranny": 278	"(((them)))": 0	"kike": 30	"argie": 11	"bri'ish": 3	"dyke": 17	"chink": 96	"pajeet": 7	"goy": 26	"gypsy": 2	"tard": 1620	"schizo": 368	"total amount of posts": 82353	"total amount of slurs": 4986	"slurs per post": 0.060544	
+
+/vp/
+"nigga": 12	"nigger": 41	"fag": 210	"troon": 3	"tranny": 18	"(((them)))": 0	"kike": 6	"argie": 0	"bri'ish": 0	"dyke": 0	"chink": 2	"pajeet": 2	"goy": 4	"gypsy": 0	"tard": 159	"schizo": 42	"total amount of posts": 8272	"total amount of slurs": 499	"slurs per post": 0.060324	
+
+/vr/
+"nigga": 18	"nigger": 20	"fag": 129	"troon": 4	"tranny": 9	"(((them)))": 0	"kike": 2	"argie": 0	"bri'ish": 1	"dyke": 1	"chink": 9	"pajeet": 0	"goy": 12	"gypsy": 0	"tard": 161	"schizo": 9	"total amount of posts": 7428	"total amount of slurs": 375	"slurs per post": 0.050485	
+
+/vt/
+"nigga": 20	"nigger": 63	"fag": 349	"troon": 7	"tranny": 12	"(((them)))": 0	"kike": 2	"argie": 1	"bri'ish": 0	"dyke": 6	"chink": 15	"pajeet": 0	"goy": 3	"gypsy": 1	"tard": 229	"schizo": 103	"total amount of posts": 16952	"total amount of slurs": 811	"slurs per post": 0.047841	
+
+/w/
+"nigga": 19	"nigger": 12	"fag": 75	"troon": 0	"tranny": 9	"(((them)))": 0	"kike": 0	"argie": 0	"bri'ish": 0	"dyke": 0	"chink": 1	"pajeet": 1	"goy": 0	"gypsy": 0	"tard": 56	"schizo": 5	"total amount of posts": 20047	"total amount of slurs": 178	"slurs per post": 0.008879	
+
+/wg/
+"nigga": 16	"nigger": 27	"fag": 122	"troon": 7	"tranny": 8	"(((them)))": 1	"kike": 10	"argie": 0	"bri'ish": 0	"dyke": 0	"chink": 1	"pajeet": 7	"goy": 0	"gypsy": 1	"tard": 105	"schizo": 10	"total amount of posts": 15487	"total amount of slurs": 315	"slurs per post": 0.02034	
+
+/wsg/
+"nigga": 34	"nigger": 268	"fag": 359	"troon": 15	"tranny": 47	"(((them)))": 1	"kike": 38	"argie": 0	"bri'ish": 0	"dyke": 1	"chink": 14	"pajeet": 4	"goy": 17	"gypsy": 26	"tard": 410	"schizo": 56	"total amount of posts": 19430	"total amount of slurs": 1290	"slurs per post": 0.066392	
+
+/wsr/
+"nigga": 0	"nigger": 2	"fag": 11	"troon": 0	"tranny": 0	"(((them)))": 0	"kike": 0	"argie": 0	"bri'ish": 0	"dyke": 2	"chink": 1	"pajeet": 0	"goy": 0	"gypsy": 0	"tard": 11	"schizo": 4	"total amount of posts": 1087	"total amount of slurs": 31	"slurs per post": 0.028519	
+
+/x/
+"nigga": 24	"nigger": 79	"fag": 172	"troon": 1	"tranny": 15	"(((them)))": 2	"kike": 13	"argie": 0	"bri'ish": 0	"dyke": 1	"chink": 2	"pajeet": 2	"goy": 12	"gypsy": 1	"tard": 259	"schizo": 130	"total amount of posts": 8133	"total amount of slurs": 713	"slurs per post": 0.087668	
+
+/xs/
+"nigga": 46	"nigger": 49	"fag": 380	"troon": 6	"tranny": 52	"(((them)))": 0	"kike": 3	"argie": 1	"bri'ish": 0	"dyke": 4	"chink": 10	"pajeet": 0	"goy": 5	"gypsy": 1	"tard": 480	"schizo": 22	"total amount of posts": 11963	"total amount of slurs": 1059	"slurs per post": 0.088523	
+
+/y/
+"nigga": 12	"nigger": 8	"fag": 147	"troon": 11	"tranny": 23	"(((them)))": 0	"kike": 0	"argie": 0	"bri'ish": 0	"dyke": 3	"chink": 10	"pajeet": 0	"goy": 0	"gypsy": 0	"tard": 77	"schizo": 14	"total amount of posts": 17260	"total amount of slurs": 305	"slurs per post": 0.017671	
+
+
+
+
