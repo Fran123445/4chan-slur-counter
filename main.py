@@ -19,12 +19,11 @@ def get_threads(board_dict, board):
         else:
             page += 1
 
-    board_dict[board] = page_list
     page = 0
 
     # Get each thread number
     while page < 10:
-        soup = bs4.BeautifulSoup(board_dict[board][page].text, "html.parser")
+        soup = bs4.BeautifulSoup(page_list[page].text, "html.parser")
         for tag in soup.findAll("span", class_="postNum desktop"):
             thread_list.append(str(tag).split("#")[0].split("/")[1])
             thread_list = list(dict.fromkeys(thread_list))
@@ -38,8 +37,8 @@ def count(board_dict, board):
     """Count the amount of slurs per board"""
 
     slur_list = {"nigga": 0, "nigger": 0, "fag": 0, "troon": 0, "tranny": 0, "(((them)))": 0, "kike": 0, "argie": 0,
-                 "bri'ish": 0, "dyke": 0, "chink": 0, "ching chong": 0, "pajeet": 0, "goy": 0, "gypsy": 0, "tard": 0,
-                 "schizo": 0}
+                 "bri'ish": 0, "dyke": 0, "chink": 0, "pajeet": 0, "goy": 0, "gypsy": 0, "tard": 0, "schizo": 0,
+                 "total amount of posts": 0, "total amount of slurs": 0, "slurs per post": 0}
 
     for thread in board_dict[board]:
         # Iterate through each thread on the current board
@@ -61,30 +60,13 @@ def count(board_dict, board):
                             slur_list[slur] += 1
                             break
 
+            slur_list["total amount of posts"] += 1
+
     board_dict[board] = slur_list
 
     print(f"/{board}/ - Counting done")
 
     return board_dict
-
-
-def log_to_file(board_slur_list, current_time):
-    """Log each board's slur count on a file"""
-
-    time = f"{current_time.tm_hour}:{current_time.tm_min}\t{current_time.tm_mday}/{current_time.tm_mon}/{current_time.tm_year}"
-
-    with open("slur_log.txt", "a") as log:
-        log.write(f"{time}\n\n")
-
-        for board in board_slur_list:
-            log.write(f"/{board}/\n")
-            for slur in board_slur_list[board]:
-                log.write(f'"{slur}": {board_slur_list[board][slur]},\t')
-            log.write("\n\n")
-
-        log.write("\n\n\n")
-
-    log.close()
 
 
 def multiproc(board_dict, func):
@@ -104,13 +86,59 @@ def multiproc(board_dict, func):
     return aux
 
 
+def calc_slur_per_post(board_dict):
+    """Calculate the amount of slurs per post on average"""
+
+    for board in board_dict:
+        slur_sum = 0
+        aux = board_dict[board]
+
+        print(f"Current board: /{board}/")
+
+        for key in list(board_dict[board].keys())[:-3]:
+            slur_sum += board_dict[board][key]
+
+        try:
+            slurs_per_post = slur_sum/board_dict[board]["total amount of posts"]
+        except ZeroDivisionError:
+            slurs_per_post = 0
+
+        slurs_per_post = round(slurs_per_post, 6)
+
+        aux["total amount of slurs"] = slur_sum
+        aux["slurs per post"] = slurs_per_post
+
+        board_dict[board] = aux
+
+    return board_dict
+
+
+def log_to_file(board_slur_list, current_time):
+    """Log each board's slur count on a file"""
+
+    time = f"{current_time.tm_hour}:{current_time.tm_min}\t{current_time.tm_mday}/{current_time.tm_mon}/{current_time.tm_year}"
+
+    with open("slur_log.txt", "a") as log:
+        log.write(f"{time}\n\n")
+
+        for board in board_slur_list:
+            log.write(f"/{board}/\n")
+            for slur in board_slur_list[board]:
+                log.write(f'"{slur}": {board_slur_list[board][slur]}\t')
+            log.write("\n\n")
+
+        log.write("\n\n\n")
+
+    log.close()
+
+    print("Done.")
+
 if __name__ == '__main__':
     boards = ["3", "a", "adv", "an", "b", "bant", "biz", "c", "cgl", "ck", "cm", "co", "d", "diy",
               "e", "f", "fa", "fit", "g", "gd", "gif", "h", "hc", "hm", "hr", "i", "ic", "int", "jp",
               "k", "lgbt", "lit", "m", "mlp", "mu", "n", "news", "o", "out", "p", "po", "pol", "r",
               "r9k", "s4s", "s", "sci", "soc", "sp", "t", "tg", "toy", "trv", "tv", "u", "v", "vg",
               "vp", "vr", "vt", "w", "wg", "wsg", "wsr", "x", "xs", "y"]
-
     board_dict = dict.fromkeys(boards)
 
     board_dict = multiproc(board_dict, get_threads)
@@ -118,5 +146,5 @@ if __name__ == '__main__':
     board_dict = multiproc(board_dict, count)
 
     current_time = time.localtime(time.time())
-
+    board_dict = calc_slur_per_post(board_dict)
     log_to_file(board_dict, current_time)
