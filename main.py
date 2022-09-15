@@ -139,6 +139,8 @@ def count_to_xlsx(board_dict):
     wb = workbook.Workbook()
     ws = wb.active
 
+    ws.freeze_panes = "B2"
+    
     current_column = 2
 
     for slur in board_dict[board_dict.keys()[0]]:
