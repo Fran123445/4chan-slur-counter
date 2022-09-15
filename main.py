@@ -2,6 +2,8 @@ import requests
 import bs4
 import time
 import multiprocessing
+from openpyxl import workbook
+from openpyxl.styles import Alignment
 
 
 def get_threads(board_dict, board):
@@ -36,8 +38,8 @@ def get_threads(board_dict, board):
 def count(board_dict, board):
     """Count the amount of slurs per board"""
 
-    slur_list = {"nigga": 0, "nigger": 0, "fag": 0, "troon": 0, "tranny": 0, "(((them)))": 0, "kike": 0, "argie": 0,
-                 "bri'ish": 0, "dyke": 0, "chink": 0, "pajeet": 0, "goy": 0, "gypsy": 0, "tard": 0, "schizo": 0,
+    slur_list = {"nigga": 0, "nigger": 0, "fag": 0, "troon": 0, "tranny": 0, "(((they)))": 0, "(((them)))": 0, "kike": 0,
+                 "argie": 0, "bri'ish": 0, "dyke": 0, "chink": 0, "pajeet": 0, "goy": 0, "gypsy": 0, "tard": 0, "schizo": 0,
                  "total amount of posts": 0, "total amount of slurs": 0, "slurs per post": 0}
 
     for thread in board_dict[board]:
@@ -93,8 +95,6 @@ def calc_slur_per_post(board_dict):
         slur_sum = 0
         aux = board_dict[board]
 
-        print(f"Current board: /{board}/")
-
         for key in list(board_dict[board].keys())[:-3]:
             slur_sum += board_dict[board][key]
 
@@ -113,12 +113,12 @@ def calc_slur_per_post(board_dict):
     return board_dict
 
 
-def log_to_file(board_slur_list, current_time):
+def count_to_txt(board_slur_list, current_time):
     """Log each board's slur count on a file"""
 
     time = f"{current_time.tm_hour}:{current_time.tm_min}\t{current_time.tm_mday}/{current_time.tm_mon}/{current_time.tm_year}"
 
-    with open("slur_log.txt", "a") as log:
+    with open("slur_count.txt", "a") as log:
         log.write(f"{time}\n\n")
 
         for board in board_slur_list:
@@ -131,7 +131,42 @@ def log_to_file(board_slur_list, current_time):
 
     log.close()
 
-    print("Done.")
+    print("Txt file done.")
+
+
+def count_to_xlsx(board_dict):
+
+    wb = workbook.Workbook()
+    ws = wb.active
+
+    current_column = 2
+
+    for slur in board_dict[board_dict.keys()[0]]:
+        cell = ws.cell(row=1, column=current_column, value=slur)
+
+        cell.alignment = Alignment(horizontal="center")
+        ws.column_dimensions[cell.column_letter].width = len(slur)+2
+        current_column += 1
+
+    current_column = 1
+    current_row = 2
+
+    for board in board_dict:
+
+        cell_value = ws.cell(row=current_row, column=current_column, value=f"/{board}/")
+
+        current_column += 1
+
+        for amount in board_dict[board].values():
+            cell_value = ws.cell(row=current_row, column=current_column, value=amount)
+            current_column += 1
+
+        current_column = 1
+        current_row += 1
+
+    wb.save('slur_count.xlsx')
+    print("Xlsx file done.")
+
 
 if __name__ == '__main__':
     boards = ["3", "a", "adv", "an", "b", "bant", "biz", "c", "cgl", "ck", "cm", "co", "d", "diy",
@@ -139,12 +174,16 @@ if __name__ == '__main__':
               "k", "lgbt", "lit", "m", "mlp", "mu", "n", "news", "o", "out", "p", "po", "pol", "r",
               "r9k", "s4s", "s", "sci", "soc", "sp", "t", "tg", "toy", "trv", "tv", "u", "v", "vg",
               "vp", "vr", "vt", "w", "wg", "wsg", "wsr", "x", "xs", "y"]
+
     board_dict = dict.fromkeys(boards)
 
+    print("\n-Starting requesting process-\n")
     board_dict = multiproc(board_dict, get_threads)
+
     print("\n-Starting count process-\n")
     board_dict = multiproc(board_dict, count)
 
     current_time = time.localtime(time.time())
     board_dict = calc_slur_per_post(board_dict)
-    log_to_file(board_dict, current_time)
+    count_to_txt(board_dict, current_time)
+    count_to_xlsx(board_dict)
